@@ -1,0 +1,1 @@
+../../UIImage+AverageColor/UIImage+AverageColor.h

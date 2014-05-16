@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AKLocationManager (1.0.3)
+  - BlocksKit (2.2.3):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.3)
+  - BlocksKit/DynamicDelegate (2.2.3)
+  - BlocksKit/MessageUI (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Foursquare-API-v2 (1.4.5)
+  - Mantle (1.5):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5)
+  - MDCSwipeToChoose (0.2.1)
+  - Overcoat (1.2.1):
+    - AFNetworking (~> 2.0)
+    - Mantle (~> 1.3)
+  - pop (1.0.4)
+  - UIImage+AverageColor (1.0.1)
+  - Underscore.m (0.2.1)
+  - VTAcknowledgementsViewController (0.11)
+
+DEPENDENCIES:
+  - AKLocationManager
+  - BlocksKit (~> 2.2)
+  - Foursquare-API-v2 (~> 1.4)
+  - MDCSwipeToChoose
+  - Overcoat (~> 1.2)
+  - pop (~> 1.0)
+  - UIImage+AverageColor (~> 1.0)
+  - Underscore.m (~> 0.2)
+  - VTAcknowledgementsViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: 01aa7c3aa9a200b94943e54072a4373f14b3d219
+  AKLocationManager: c2c1c8eecd37c2b9193cb7803db999bcc518315c
+  BlocksKit: d2f8e007646282b4ffc525c15bdf432ad3d11d78
+  Foursquare-API-v2: 60ab223d146bf2424b94006e26ffb227b9df3ab5
+  Mantle: 60c03eea4d15a1c8d53821a56c7492cd6d05f553
+  MDCSwipeToChoose: a12f0e87c95f635d52777afd42bfd9a40e0e4626
+  Overcoat: cb0b3f254f347d8a09a8980c3b25a70bb6a28294
+  pop: 63a4f5e8942077fed2efe195036ecc572c71c48c
+  UIImage+AverageColor: 399f31f1313cb8c6d394e8df44f30ce8adfb2a16
+  Underscore.m: 593ea54a19d3cc4439387a83d36eb7ba6ffd1707
+  VTAcknowledgementsViewController: 9c81860d820d6e7ff9df696d4c3573591821b5f0
+
+COCOAPODS: 0.32.1

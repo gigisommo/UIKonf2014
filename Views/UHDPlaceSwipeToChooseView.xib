@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UHDPlaceSwipeToChooseView">
+            <connections>
+                <outlet property="firstThumbnailImageView" destination="q8p-el-ljE" id="pFz-h4-Cuo"/>
+                <outlet property="nameLabel" destination="yrH-1R-UkZ" id="XjO-PK-nQ2"/>
+                <outlet property="secondThumbnailImageView" destination="cOL-T6-8Q6" id="T6A-Ar-iXD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cOL-T6-8Q6" userLabel="Second Image">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q8p-el-ljE" userLabel="First Image">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="280"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom-gradient.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ydn-fx-jd4">
+                    <rect key="frame" x="0.0" y="241" width="280" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrH-1R-UkZ">
+                    <rect key="frame" x="10" y="254" width="261" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q8p-el-ljE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0fd-Um-THy"/>
+                <constraint firstAttribute="trailing" secondItem="Ydn-fx-jd4" secondAttribute="trailing" id="5Yo-DG-ZxJ"/>
+                <constraint firstAttribute="trailing" secondItem="yrH-1R-UkZ" secondAttribute="trailing" constant="9" id="7cK-ie-6cc"/>
+                <constraint firstAttribute="bottom" secondItem="cOL-T6-8Q6" secondAttribute="bottom" id="8kf-4S-8Pv"/>
+                <constraint firstAttribute="trailing" secondItem="q8p-el-ljE" secondAttribute="trailing" id="KRt-aO-i2C"/>
+                <constraint firstItem="cOL-T6-8Q6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KYA-xi-ZOe"/>
+                <constraint firstAttribute="bottom" secondItem="q8p-el-ljE" secondAttribute="bottom" id="RCa-6x-pNR"/>
+                <constraint firstAttribute="bottom" secondItem="cOL-T6-8Q6" secondAttribute="bottom" id="SiV-l5-AbA"/>
+                <constraint firstItem="cOL-T6-8Q6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TX5-fq-685"/>
+                <constraint firstItem="yrH-1R-UkZ" firstAttribute="width" secondItem="Ydn-fx-jd4" secondAttribute="height" multiplier="87:13" id="Y3n-z6-jCj"/>
+                <constraint firstAttribute="bottom" secondItem="Ydn-fx-jd4" secondAttribute="bottom" id="ZlV-40-zBW"/>
+                <constraint firstItem="q8p-el-ljE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cFZ-XI-keT"/>
+                <constraint firstItem="cOL-T6-8Q6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eLs-b9-56a"/>
+                <constraint firstAttribute="trailing" secondItem="cOL-T6-8Q6" secondAttribute="trailing" id="kS6-1v-uxH"/>
+                <constraint firstAttribute="bottom" secondItem="yrH-1R-UkZ" secondAttribute="bottom" constant="5" id="m6m-px-kug"/>
+                <constraint firstItem="yrH-1R-UkZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="mbf-ov-eiR"/>
+                <constraint firstItem="Ydn-fx-jd4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qld-71-ZwN"/>
+                <constraint firstAttribute="trailing" secondItem="cOL-T6-8Q6" secondAttribute="trailing" id="vQg-ZF-m21"/>
+                <constraint firstItem="cOL-T6-8Q6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zid-pi-gcO"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bottom-gradient.png" width="300" height="64"/>
+    </resources>
+</document>
